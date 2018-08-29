@@ -1,0 +1,31 @@
+{
+  "name": "ts-contracts",
+  "version": "0.0.0",
+
+  "dependencies": {},
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1",
+    "yarn": "^1.9.4"
+  },
+
+  "author": "Bastien Michaux",
+  "bugs": {
+    "url": "https://github.com/bastienmichaux/ts-contracts/issues"
+  },
+  "description": "",
+  "homepage": "https://github.com/bastienmichaux/ts-contracts#readme",
+  "include": [
+    "src/**/*"
+  ],
+  "license": "ISC",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bastienmichaux/ts-contracts.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "types": "dist/index.d.ts"
+}
